@@ -142,9 +142,17 @@
 		C4D343C11B562F3300720334 /* LSCircleView */ = {
 			isa = PBXGroup;
 			children = (
-				C4D343C21B562F4500720334 /* LSCircleView.swift */,
+				C4D343CE1B5654D600720334 /* view */,
 			);
 			path = LSCircleView;
+			sourceTree = "<group>";
+		};
+		C4D343CE1B5654D600720334 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C4D343C21B562F4500720334 /* LSCircleView.swift */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,6 +461,7 @@
 				C4D343B71B562E1800720334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4D343B81B562E1800720334 /* Build configuration list for PBXNativeTarget "LSCircleScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +470,7 @@
 				C4D343BA1B562E1800720334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

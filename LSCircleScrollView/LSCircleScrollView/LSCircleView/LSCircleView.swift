@@ -99,7 +99,7 @@ class LSCircleView: UIView, UIScrollViewDelegate {
         currentImageView.clipsToBounds = true;
         contentScrollView.addSubview(currentImageView);
         //添加点击事件
-        var imageTap = UITapGestureRecognizer(target: self, action: "imageTapAction");
+        var imageTap = UITapGestureRecognizer(target: self, action: "imageTapAction:");
         currentImageView.addGestureRecognizer(imageTap);
         
         self.lastImageView = UIImageView();
@@ -185,7 +185,7 @@ class LSCircleView: UIView, UIScrollViewDelegate {
     
     //MARK: 公共方法
     func imageTapAction(tap: UITapGestureRecognizer) {
-        self.delegate.imageDidClickedAtIndex!(indexOfCurrentImage);
+        self.delegate!.imageDidClickedAtIndex!(indexOfCurrentImage);
     }
     
 }
